@@ -148,6 +148,14 @@ Examples of time series data include:
 - exchange rates
 - temperature
 
+**Time Series Mining** applications can be segmented into:
+
+1. Representation and indexing
+2. Similarity measure
+3. Segmentation
+4. Visualisation
+5. Mining
+
 
 
 ## Survival Analysis

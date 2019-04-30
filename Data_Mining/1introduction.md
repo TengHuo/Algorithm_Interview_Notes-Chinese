@@ -29,7 +29,7 @@ Information is hidden in the data. Data Mining is finding patterns in the data a
 
 
 
-## Data Mining Concets
+## Data Mining Concepts
 
 ### Attributes (Features or Columns)
 

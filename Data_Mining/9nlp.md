@@ -11,10 +11,10 @@ using sequences of characters
 using sequences of words
 
 ### 3. N-gram Models
-consider sequence of characters (or words) of length n
 
-e.g., trigram model
-a Markov chain of order 2, where the probability is derived from sequences of 3 characters (i, i −1, i −2).
+A probability distribution over all characters in the alphabet (or all words in the article) that is used in the language for a sequence of "n" characters(or words).
+
+e.g., trigram model: a Markov chain of order 2, where the probability is derived from sequences of 3 characters (i, i −1, i −2).
 
 - **Language Identification problem**: Identify the language in which a text (corpus) is written (search)
 - Spelling correction
@@ -164,10 +164,10 @@ $$
 
 #### 2. TF-IDF
 
-**term frequency (TF)**
+**Term Frequency (TF)**
 The number of times that a term appears in a document
 
-**inverse document frequency (IDF)**
+**Inverse Document Frequency (IDF)**
 $$
 IDF(T) = \log\frac{M - DF(T) + 0.5}{DF(T) + 0.5}
 $$

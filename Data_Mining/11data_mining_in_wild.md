@@ -1,17 +1,5 @@
 # Data Mining in the Wild
 
-## The Process of Data Mining
-
-In the real world, with real data, this process essential!
-
-![](./images/processing.png)
-
-- Before applying data mining techniques, determine the objective of the analysis.
-- Understand the data and its quality.
-- Prepare (**clean** or **curate**) the data.
-- Build models(s)
-- Evaluate the model(s)
-
 ## Data Issues
 
 - Data

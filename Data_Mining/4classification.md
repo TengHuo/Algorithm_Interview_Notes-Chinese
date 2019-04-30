@@ -4,7 +4,7 @@
 
 We want to build a model of our data that we can use to predict things about new, unseen data.
 
-If each instance in the training set (our existing data) already has a **label** or a **class**, then this process is referred to as supervised learning.
+If each instance in the training set (our existing data) already has a **label** or a **class**, then this process is referred to as **supervised learning**.
 
 Our goal is to find a rule or a function or a concept definition, based on the existing data set.
 
@@ -36,8 +36,6 @@ Start with constructing a simple rule that appears to cover initial examples in 
 ### Decision Trees
 
 A **decision tree** is a hierarchical collection of rules that describe ways to partition instances into groups.
-
-
 
 A measure of a potential split is the **purity** of the target attribute in the children nodes:
 

@@ -49,7 +49,7 @@ $$
 #### Agglomerative method
 Nearby points are in the same cluster, Relies on Between Cluster metric
 
-1. Start with clusters containing one data point each (singleton clusters)
+1. Start with clusters containing one data point each (**singleton clusters**)
 2. Repeat until one cluster is left:
   - 􏰀Find pair of clusters that are closest
   - Merge the pair
@@ -75,6 +75,62 @@ Goal is to find regions in the data space that are of high density and low densi
 3. Create an edge between all core points that is within Eps of each other
 4. Create a cluster for each group of connected core points
 5. Assign each border point to the cluster of its core point
+
+
+
+## Metrics for Clustering
+
+### Distance or Similarity
+
+**Distance** is complementary to **Similarity**.
+
+Measures for computing the distance of **numeric** attributes:
+
+1. Absolute value (Manhattan distance): $|A − B|$,
+2. Squared difference: $(A-B)^2$,
+3. Eucliean distance: $\sqrt{(A-B)^2}$
+4. Normalised absolute value: $\frac{|A-B|}{C}$
+5. Absolute value of the difference of standardised values: $|\frac{A}{C} - \frac{B}{C}|$
+
+Measures for computing the distance of **nominal** attributes:
+
+1. Categorical distance (is it the same or not?): $(A == B) \rightarrow 0:1$
+
+### Cluster centre or Centroid
+
+For **numeric** data, this is the **centre of mass** or **mean**:
+$$
+c_i = \frac{\sum\chi}{m_i}
+$$
+
+$c_i$: i-th cluster,
+$\sum\chi$: sum of scores for instances belonging to i-th cluster,
+
+$m_i$: size of cluster (number of instances in cluster)
+
+For **nominal** and **ordinal** data, this is typically the **mode**.
+
+### Cluster diameter
+
+The largest distance between any two members of the same cluster. Compute the distance between all pairs of members within the same cluster. Identify the largest distance.
+
+### Single-link or Single-linkage
+
+The smallest distance between any two clusters. Compute the pairwise distances between all members of each cluster. Identify the smallest distance.
+
+### Complete-link or Complete-linkage
+
+The largest distance between any two clusters. Compute the pairwise distances between all members of each cluster. Identify the largest distance.
+
+### Centroid-link or Centroid-linkage
+
+Compute the centroid of each cluster and the compute the distance between each centroid.
+
+### Average-link or Average-linkage or Group-average
+
+Average distance between cluster members.
+
+
 
 ## Evaluation
 
@@ -114,14 +170,6 @@ $$
 - $sc = −1$ forincorrectclustering
 
 ### Minimum Description Length
-
-
-
-
-
-
-
-
 
 
 

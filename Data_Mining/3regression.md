@@ -18,10 +18,10 @@ If each instance in the training set (our existing data) already has a label or 
 
 **1. Training** :
 
-1. Select a portion of the existing data → training set
-2. Initialise the parameters (wi ’s), e.g., to random values
+1. Select a portion of the existing data $\rightarrow$ training set
+2. Initialise the parameters ($w_i$ ’s), e.g., to random values
 3. Apply the rule to the training set and compute the error rate
-4. Adjust the parameters (wi ’s), according to some method
+4. Adjust the parameters ($w_i$ ’s), according to some method
 5. Iterate back to step (3) until the error rate is “low enough”
 6. Output is the model
 

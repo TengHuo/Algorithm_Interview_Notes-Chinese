@@ -3,11 +3,14 @@
 ## 1. Introduction
 
 - Overview
-- Data Mining Concets
+- Data Mining Concepts
 
-## 2. Basic Probability
+## 2. Probability
 
-- Overview
+- Probability and Likelihood
+- Estimation
+- Statistical Modelling (TODO)
+- Scoring Functions (TODO)
 
 ## 3. Regression
 
@@ -16,33 +19,29 @@
   1. Regression
   2. Gradient Descent Algorithm
   3. Linear Regression
-- Evaluation
+- Evaluation (TODO)
 
 ## 4. Classification
 
 - Overview
 - Classification Models
   1. Decision Trees
-  2. Logistic Regression
-  3. Naive Bayes
-  4. Perceptrons
-  5. Neural Networks
+  2. Logistic Regression (TODO)
+  3. Naive Bayes (TODO)
+  4. Perceptrons (TODO)
+  5. Neural Networks (TODO)
 - Evaluation 
 
 ## 5. Clustering
 
+- Overview
 - Clustering Models
+- Metrics for Clustering
 - Evaluation
 
-## 6. Mixture Models
+## 6. Modelling
 
-
-
-## 10. Advanced Methods
-
-- Advanced Methods for Classification and Regression
-- Advanced Methods for Sequence Analysis
-- Mehods for Dimensionality Reduction
+ (TODO)
 
 ## 7. Methods for Structured Data
 
@@ -50,22 +49,27 @@
 - Time Series Data Mining
 - Survival Data Mining
 
-## 8. Natural Language Processing
+## 8. Advanced Methods (TODO)
+
+- Advanced Methods for Classification and Regression
+- Advanced Methods for Sequence Analysis
+- Mehods for Dimensionality Reduction
+
+## 9. Natural Language Processing
 
 - Language Models
 - Information Extraction
 - Information Retrieval
 
-## 9. Image Processing
+## 10. Image Processing
 
 - Overview
 - Low-level Image Processing
 - Mid-Level Image Processing
 - High-Level Image Processing
 
-## 11. Data Mining in the Wild
+## 11. Data Mining in the Wild (TODO)
 
-- The Process of Data Mining
 - Data Issues
 - Model Issues
 
