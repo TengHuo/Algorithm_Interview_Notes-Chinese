@@ -41,7 +41,9 @@
 
 ## 6. Modelling
 
- (TODO)
+- Overview
+- Mixture Models
+- Instance-based Models
 
 ## 7. Methods for Structured Data
 
@@ -49,7 +51,7 @@
 - Time Series Data Mining
 - Survival Data Mining
 
-## 8. Advanced Methods (TODO)
+## 8. Advanced Methods
 
 - Advanced Methods for Classification and Regression
 - Advanced Methods for Sequence Analysis
@@ -68,7 +70,7 @@
 - Mid-Level Image Processing
 - High-Level Image Processing
 
-## 11. Data Mining in the Wild (TODO)
+## 11. Data Mining in the Wild
 
 - Data Issues
 - Model Issues

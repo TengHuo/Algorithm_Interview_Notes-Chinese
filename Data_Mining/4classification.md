@@ -159,7 +159,7 @@ N times, once for each of the N training/test set combinations.
 **Leave-one-out cross-validation**: An alternative to N-fold cross-validation where N is the
 number of instances in the data set.
 
-**Bootstrap**: Sampling can be done with or without replacement.
+**Bootstrap**: It refers to the process of sampling with **replacement**. It is useful when there is not very much data available.
 
 ### Confusion Matrix
 

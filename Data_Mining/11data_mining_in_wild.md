@@ -17,5 +17,3 @@
 - Learning things that are true but not useful
 - Are we overfitting
 - Training data does not reflext the relevant population
-
-**re-substitution error**: The error rate obtained when running a model using training data.
