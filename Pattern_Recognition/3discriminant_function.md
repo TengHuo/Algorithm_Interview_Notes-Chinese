@@ -94,3 +94,7 @@ where b is a positive number, called the **margin**
 
 
 ### Widrow-Hoff (or LMS) Learning Algorithm
+
+![](./images/widrow-hoff.png)
+
+![](./images/widrow-hoff_example.png)

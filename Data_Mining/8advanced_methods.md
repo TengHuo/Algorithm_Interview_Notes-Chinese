@@ -2,9 +2,9 @@
 
 ## Advanced Methods for Classification and Regression
 
-### 1. Ensemble Methods for Classification
+### 1. Ensemble Methods
 
-**Ensemble methods** combine predictions from multiple classifiers using some type of function, such as a weighted average of their predictions.
+**Ensemble methods** combine predictions from **multiple classifiers** using some type of function, such as a weighted average of their predictions.
 
 - **Statistical reasons**: each classifier produces an hypothesis, $h_i$ , about the data. The average over all the hi ’s is better than any of them alone.
 - **Computational reasons**: learning methods use techniques like gradient descent and can get stuck in local optima. Multiple searchers would be less likely to all end up in the same local optima.
@@ -32,11 +32,16 @@ The method helps improve results when a learning algorithm is **not very stable*
 
 This works like **Bagging**. But also maintains a set of weights over the training examples.
 
-### 2. Kernel Methods for Regression
+### 2. Kernel Methods
+
+**Kernel methods** means **transforming data into another dimension** that has a clear dividing margin between classes of data (classification), or **smoothing out** the contribution of a single observation over a local neighbourhood (regression).
 
 A **parametric** model is appropriate if we make assumptions about the distribution of the **population** from which the data set (considered a **sample** or subset of the population) is drawn.
 
 A **non-parametric** model is needed if we cannot make any assumptions about how the data is distributed.
+
+#### Support-vector Machine (SVM)
+
 
 
 
@@ -44,8 +49,11 @@ A **non-parametric** model is needed if we cannot make any assumptions about how
 
 ### 1. Hidden Models
 
+When there is no direct correlation between variables, then it is possible that **hidden** or **latent** variables may exist.
+
 ### 2. HMMs (Hidden Markov Models)
 
+A **Markov chain** is a common model where all information relevant to $x_i$ is contained in $x_{i−1}$.
 
 ## Mehods for Dimensionality Reduction
 
@@ -56,7 +64,7 @@ Reduce multiple related observations (instances) to one observation. But this ca
 ### 2. Derving Variables
 
 1. Single-variable transformations
-  1. Standardise numeric variables: Centering, Rescaling
+  1. **Standardise** numeric variables: 1. **Centering**, 2. **Rescaling**
   2. Turn. numerica values into percetiles
   3. Turn absolute numbers into relative measures
   4. Turn counts into rates

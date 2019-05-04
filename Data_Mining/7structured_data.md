@@ -53,12 +53,12 @@ $$
 
 **support count** of the rule: number of transactions where both items occur$=2$
 
-**coverage** is often represented as a fraction:
+**coverage (support)** is often represented as a fraction:
 $$
 \frac{support\ count}{number\ of\ transactions} = \frac{2}{5}
 $$
 
-**confidence**:
+**confidence (accuracy)**:
 $$
 \frac{support\ count\ rule}{support\ count\ antecedent} = \frac{2}{4}
 $$

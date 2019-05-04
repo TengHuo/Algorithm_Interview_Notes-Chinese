@@ -2,20 +2,20 @@
 
 ## 1. Introduction
 
-## Bayesian Decision Theory & Density Estimation
+## 2. Bayesian Decision Theory & Density Estimation
 
-## Discriminant Functions
+## 3. Discriminant Functions
 
-## Neural Networks
+## 4. Neural Networks
 
-## Feature Extraction
+## 5. Multilayer Neural Networks
 
-## Multilayer Neural Networks
+## 6. Support Vector Machines
 
-## Fuzzy Interence Systems
+## 7. Ensemble Methods
 
-## Support Vector Machines
+## 8. Feature Extraction
 
-## Ensemble Methods
+## 9. Unsupervised Learning and Clustering
 
-## Clustering
+## 10. Fuzzy Interence Systems

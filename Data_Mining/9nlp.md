@@ -28,13 +28,13 @@ Decide what category a piece of text (document) belongs to
 
 #### Two general approaches:
 
-**1. Language Modelling (Bayesian) approach**: Uses the probability of sequences of words or characters occuring.
-**2. Machine learning approach**: Derives features from the sequences of words or characters.
+1. **Language Modelling (Bayesian) approach**: Uses the probability of sequences of words or characters occuring.
+2. **Machine learning approach**: Derives features from the sequences of words or characters.
 
 #### Currently Popular Tasks:
 
-**1. Topic Analysis**: Identify topics or themes in text
-**2. Sentiment Analysis**: Identify polarity or valence in text:
+1. **Topic Analysis**: Identify topics or themes in text
+2. **Sentiment Analysis**: Identify polarity or valence in text:
 
 - Positive
 - Negative

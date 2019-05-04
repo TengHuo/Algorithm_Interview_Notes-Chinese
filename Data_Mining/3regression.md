@@ -45,7 +45,7 @@ Goal: devise a **rule** or **function** or **concept description** or **equation
 
 ## Linear Regression
 
-There is a linear function exists between the output and the variables:
+There is a linear function (**regression equation**) exists between the output and the variables:
 $$
 y = w_0 + \sum_{i=1}^Nw_ix_i
 $$
